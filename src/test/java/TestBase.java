@@ -2,7 +2,6 @@ import io.restassured.RestAssured;
 import io.restassured.response.ValidatableResponse;
 import org.junit.jupiter.api.BeforeAll;
 
-import static io.restassured.RestAssured.filters;
 import static io.restassured.RestAssured.given;
 
 public class TestBase {
